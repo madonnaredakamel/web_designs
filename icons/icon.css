@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container
+{
+    width: 465px;
+    height: 614px;
+}
+.upper
+{
+    text-transform: capitalize;
+}
+.header
+{
+    margin-top: 23px;
+    margin-left: 14px;
+}
+
+.div-img:hover{
+    height: 254px;
+    width: 403px;
+    
+    background-color:black;
+    opacity: 0.6;
+}
+.header
+{
+    height: 32px;
+}
+
+.header span{
+    color: gray;
+}
+.div-img{
+    height: 254px;
+    width: 403px;
+    margin-left: 23px;
+    background-image: url(img/pic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+.div-img img{
+    position: absolute;
+    
+    top: 261px;
+    left: 342px;
+    border: white 8px solid;
+    height: 72px;
+    width: 77px;
+    z-index: 1;
+    
+    
+    border-radius: 55px;
+
+}
+
+.div-news{
+    height: 265px;
+    width: 404px;
+    margin-left: 23px;
+    margin-top: 32px;
+}
+.div-news h2{
+    height: 38px;
+    color: royalblue;
+    text-transform: uppercase;
+}
+.div-news hr{
+    width: 85px;
+    border-top-width: 6px;
+}
+.div-news p{
+    margin-top: 26px;
+}
+
+
+.div-img button{
+    height: 50px;
+    width: 150px;
+    color: ivory;
+    text-transform: capitalize;
+    font-size: 25px;
+    background: none;
+    font: bold;
+    border: 0;
+    margin-top: 199px;
+    margin-left: 40px;
+    
+}
+.container *{
+    margin-left: 0%;
+}
+.container{
+    margin-left: 47px;
+    padding-left: 2px;
+
+}
+.header *{
+    margin-left: 10px;
+    text-transform: uppercase;
+    
+}

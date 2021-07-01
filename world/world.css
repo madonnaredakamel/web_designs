@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+.container1{
+    height: 500px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.nav{
+    height: 54px;
+    width: 1052px;
+    margin-left: 155px;
+    margin-top: 0px;
+    padding-top: 23px;
+    padding-bottom: 3px;
+    border-bottom: 2px gray solid;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+    
+}
+.nav-list{
+    width: 441px;
+    height: 54px;
+    padding-top: 26px;
+    color: white;
+}
+.container1-div {
+    display: flex;
+    
+}
+
+.container1-div p{
+    width: 60%;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px;
+
+}
+.container1-div span{
+   
+    width: 13%;
+    height: 49px;
+    border-radius: 75px;
+    border: 5px gray solid;
+    text-align: center;
+    color: gray;
+    font-size: xx-large;
+    text-align-last: center;
+}
+
+.div-flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container2{
+    height: 1200px;
+    display: flex;
+    padding-top: 66px;
+
+
+}
+.left-div{
+    width: 50%;
+    height: 1027px;
+}
+.right-div{
+    width: 30%;
+    height: 1027px;
+}
+.header-div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    
+    border-bottom: 2px gray solid;
+
+}
+.header-div p{
+    width: 40%;
+    text-transform: capitalize;
+
+}
+.header-div div{
+    width: 60%;
+
+}
+.ul-div{
+    width: 100%;
+    justify-content: space-between;
+}
+.div{
+    width: 20%;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+.btn{
+    color: blue;
+    height: 28px;
+    width: 77px;
+    margin-left: 96px;
+}
+.container3{
+    height: 1209px;
+}
+.container4{
+    background-color: black;
+    height: 179px;
+    margin-top: 100px;
+}
+.color_yellow{
+    color: yellow;
+}
+
+
